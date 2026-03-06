@@ -1,4 +1,4 @@
-// Shared components for Oregon Accident Chiro site
+// Shared components for ProCare Chiropractic site
 // Include this script on every page: <script src="../components.js"></script>
 
 function getBasePath() {
@@ -18,7 +18,7 @@ function renderTopbar() {
 function renderNav(base) {
   return `<nav>
     <div class="nav-inner">
-      <a href="${base}index" class="nav-logo">Oregon Accident<span>Chiro</span></a>
+      <a href="${base}index" class="nav-logo">ProCare<span>Chiro</span></a>
       <ul class="nav-menu">
         <li>
           <a href="#">Services <span class="arrow">▾</span></a>
@@ -45,7 +45,7 @@ function renderNav(base) {
         <li><a href="${base}blog/index">Blog</a></li>
         <li><a href="${base}#faq">FAQ</a></li>
       </ul>
-      <a href="tel:+15035550100" class="nav-phone">📞 (503) 555-0100</a>
+      <a href="tel:+15038990707" class="nav-phone">📞 (503) 899-0707</a>
       <a href="${base}#contact" class="btn btn-red btn-sm nav-cta">Free Consultation</a>
       <div class="hamburger" onclick="openMobileNav()">
         <span></span><span></span><span></span>
@@ -100,8 +100,8 @@ function renderFooter(base) {
     <div class="container">
       <div class="footer-grid">
         <div>
-          <div class="footer-logo">Oregon Accident<span>Chiro</span></div>
-          <p class="footer-desc">Portland's trusted auto accident chiropractic specialists. Treatment covered by your auto insurance — no out-of-pocket cost. Serving all of Oregon.</p>
+          <div class="footer-logo">ProCare<span>Chiro</span></div>
+          <p class="footer-desc">Oregon's top-rated accident chiropractic center — 20+ years experience, 16,000+ patients treated. Car accident & workplace injuries covered by insurance. Locations in Portland, Sherwood, Hillsboro & Keizer.</p>
           <div class="footer-badges">
             <span class="footer-badge">✅ Insurance Accepted</span>
             <span class="footer-badge">⭐ 4.9 Rating</span>
@@ -128,34 +128,56 @@ function renderFooter(base) {
             <li><a href="${base}cities/sherwood">Sherwood, OR</a></li>
             <li><a href="${base}cities/salem">Salem, OR</a></li>
             <li><a href="${base}cities/lake-oswego">Lake Oswego, OR</a></li>
+            <li><a href="${base}cities/keizer">Keizer, OR</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contact</h4>
-          <ul class="footer-links">
-            <li><a href="tel:+15035550100">📞 (503) 555-0100</a></li>
-            <li><a href="mailto:info@oregonaccidentchiro.com">✉ info@oregonaccidentchiro.com</a></li>
-            <li><a href="${base}#contact">Free Consultation</a></li>
-            <li><a href="${base}blog/index">Blog</a></li>
-            <li><a href="${base}#faq">FAQ</a></li>
+          <h4>Locations & Contact</h4>
+          <ul class="footer-links" style="gap:14px;">
+            <li style="display:flex;flex-direction:column;gap:2px;">
+              <strong style="color:rgba(255,255,255,0.85);font-size:0.82rem;">Portland</strong>
+              <span style="font-size:0.8rem;color:rgba(255,255,255,0.55);">10915 SE Stark St #200</span>
+              <a href="tel:+15038990707" style="font-size:0.82rem;">📞 (503) 899-0707</a>
+            </li>
+            <li style="display:flex;flex-direction:column;gap:2px;">
+              <strong style="color:rgba(255,255,255,0.85);font-size:0.82rem;">Sherwood</strong>
+              <span style="font-size:0.8rem;color:rgba(255,255,255,0.55);">16771 SW 12th St</span>
+              <a href="tel:+19713963013" style="font-size:0.82rem;">📞 (971) 396-3013</a>
+            </li>
+            <li style="display:flex;flex-direction:column;gap:2px;">
+              <strong style="color:rgba(255,255,255,0.85);font-size:0.82rem;">Hillsboro</strong>
+              <span style="font-size:0.8rem;color:rgba(255,255,255,0.55);">329 SE 3rd Avenue</span>
+              <a href="tel:+15038990707" style="font-size:0.82rem;">📞 (503) 899-0707</a>
+            </li>
+            <li style="display:flex;flex-direction:column;gap:2px;">
+              <strong style="color:rgba(255,255,255,0.85);font-size:0.82rem;">Keizer</strong>
+              <span style="font-size:0.8rem;color:rgba(255,255,255,0.55);">3785 River Rd N</span>
+              <a href="tel:+19714143440" style="font-size:0.82rem;">📞 (971) 414-3440</a>
+            </li>
           </ul>
-          <div style="margin-top:20px;background:rgba(255,255,255,0.07);border-radius:10px;padding:14px 16px;">
+          <div style="margin-top:16px;background:rgba(255,255,255,0.07);border-radius:10px;padding:12px 14px;">
             <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);margin-bottom:4px;">Hours</div>
-            <div style="font-size:0.85rem;color:white;">Mon–Fri: 8am – 6pm</div>
-            <div style="font-size:0.85rem;color:white;">Saturday: 9am – 2pm</div>
+            <div style="font-size:0.85rem;color:white;">Mon–Fri: 9am – 6pm</div>
+            <div style="font-size:0.82rem;color:rgba(255,255,255,0.6);">✉ nwmedfrontdesk@gmail.com</div>
+          </div>
+          <div style="margin-top:14px;display:flex;gap:10px;">
+            <a href="https://www.facebook.com/ProHealthCenterllc/" target="_blank" rel="noopener" style="width:34px;height:34px;background:rgba(255,255,255,0.08);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-size:0.9rem;text-decoration:none;" title="Facebook">f</a>
+            <a href="https://www.instagram.com/procare.or/" target="_blank" rel="noopener" style="width:34px;height:34px;background:rgba(255,255,255,0.08);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-size:0.75rem;text-decoration:none;" title="Instagram">ig</a>
+            <a href="https://www.linkedin.com/company/procare-oregon/about/" target="_blank" rel="noopener" style="width:34px;height:34px;background:rgba(255,255,255,0.08);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-size:0.75rem;text-decoration:none;" title="LinkedIn">in</a>
+            <a href="https://procarechiro.com/book-now/" target="_blank" rel="noopener" style="flex:1;height:34px;background:var(--accent);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-size:0.78rem;font-weight:700;text-decoration:none;">Book Now →</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2025 Oregon Accident Chiropractic. All rights reserved.</span>
+        <span>© 2025 ProCare Chiropractic Center. All rights reserved.</span>
         <span>Portland, Oregon</span>
       </div>
       <div class="footer-disclaimer">
-        The information on this website is for general informational purposes only and does not constitute medical advice. Results may vary. Insurance coverage depends on your specific policy. Oregon Accident Chiropractic is a lead generation website connecting patients with licensed chiropractic providers in Oregon.
+        The information on this website is for general informational purposes only and does not constitute medical advice. Results may vary. Insurance coverage depends on your specific policy. ProCare Chiropractic Center is a lead generation website connecting patients with licensed chiropractic providers in Oregon.
       </div>
     </div>
   </footer>
-  <div class="sticky-bar"><a href="tel:+15035550100">📞 Call Free — (503) 555-0100 — No Cost to You</a></div>`;
+  <div class="sticky-bar"><a href="tel:+15038990707">📞 (503) 899-0707 — Free Exam — No Out-of-Pocket Cost for Auto Accidents</a></div>`;
 }
 
 function renderForm(formId) {
