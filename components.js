@@ -18,35 +18,35 @@ function renderTopbar() {
 function renderNav(base) {
   return `<nav>
     <div class="nav-inner">
-      <a href="${base}index.html" class="nav-logo">Oregon Accident<span>Chiro</span></a>
+      <a href="${base}index" class="nav-logo">Oregon Accident<span>Chiro</span></a>
       <ul class="nav-menu">
         <li>
           <a href="#">Services <span class="arrow">▾</span></a>
           <div class="dropdown">
-            <a href="${base}services/whiplash.html"><span class="icon">🔄</span> Whiplash Treatment</a>
-            <a href="${base}services/back-pain.html"><span class="icon">🦴</span> Back & Spine Injuries</a>
-            <a href="${base}services/soft-tissue.html"><span class="icon">💪</span> Soft Tissue Therapy</a>
-            <a href="${base}services/concussion.html"><span class="icon">🧠</span> Post-Concussion Care</a>
-            <a href="${base}services/rehabilitation.html"><span class="icon">🏃</span> Rehabilitation</a>
-            <a href="${base}services/documentation.html"><span class="icon">📋</span> Medical Documentation</a>
+            <a href="${base}services/whiplash"><span class="icon">🔄</span> Whiplash Treatment</a>
+            <a href="${base}services/back-pain"><span class="icon">🦴</span> Back & Spine Injuries</a>
+            <a href="${base}services/soft-tissue"><span class="icon">💪</span> Soft Tissue Therapy</a>
+            <a href="${base}services/concussion"><span class="icon">🧠</span> Post-Concussion Care</a>
+            <a href="${base}services/rehabilitation"><span class="icon">🏃</span> Rehabilitation</a>
+            <a href="${base}services/documentation"><span class="icon">📋</span> Medical Documentation</a>
           </div>
         </li>
         <li>
           <a href="#">Areas Served <span class="arrow">▾</span></a>
           <div class="dropdown">
-            <a href="${base}cities/portland.html"><span class="icon">📍</span> Portland, OR</a>
-            <a href="${base}cities/hillsboro.html"><span class="icon">📍</span> Hillsboro, OR</a>
-            <a href="${base}cities/beaverton.html"><span class="icon">📍</span> Beaverton, OR</a>
-            <a href="${base}cities/sherwood.html"><span class="icon">📍</span> Sherwood, OR</a>
-            <a href="${base}cities/salem.html"><span class="icon">📍</span> Salem, OR</a>
-            <a href="${base}cities/lake-oswego.html"><span class="icon">📍</span> Lake Oswego, OR</a>
+            <a href="${base}cities/portland"><span class="icon">📍</span> Portland, OR</a>
+            <a href="${base}cities/hillsboro"><span class="icon">📍</span> Hillsboro, OR</a>
+            <a href="${base}cities/beaverton"><span class="icon">📍</span> Beaverton, OR</a>
+            <a href="${base}cities/sherwood"><span class="icon">📍</span> Sherwood, OR</a>
+            <a href="${base}cities/salem"><span class="icon">📍</span> Salem, OR</a>
+            <a href="${base}cities/lake-oswego"><span class="icon">📍</span> Lake Oswego, OR</a>
           </div>
         </li>
-        <li><a href="${base}blog/index.html">Blog</a></li>
-        <li><a href="${base}index.html#faq">FAQ</a></li>
+        <li><a href="${base}blog/index">Blog</a></li>
+        <li><a href="${base}#faq">FAQ</a></li>
       </ul>
       <a href="tel:+15035550100" class="nav-phone">📞 (503) 555-0100</a>
-      <a href="${base}index.html#contact" class="btn btn-red btn-sm nav-cta">Free Consultation</a>
+      <a href="${base}#contact" class="btn btn-red btn-sm nav-cta">Free Consultation</a>
       <div class="hamburger" onclick="openMobileNav()">
         <span></span><span></span><span></span>
       </div>
@@ -54,25 +54,25 @@ function renderNav(base) {
   </nav>
   <div class="mobile-nav" id="mobileNav">
     <button class="mobile-close" onclick="closeMobileNav()">✕</button>
-    <a href="${base}index.html">🏠 Home</a>
+    <a href="${base}index">🏠 Home</a>
     <div class="mobile-group-label">Services</div>
-    <a href="${base}services/whiplash.html">🔄 Whiplash Treatment</a>
-    <a href="${base}services/back-pain.html">🦴 Back & Spine Injuries</a>
-    <a href="${base}services/soft-tissue.html">💪 Soft Tissue Therapy</a>
-    <a href="${base}services/concussion.html">🧠 Post-Concussion Care</a>
-    <a href="${base}services/rehabilitation.html">🏃 Rehabilitation</a>
-    <a href="${base}services/documentation.html">📋 Medical Documentation</a>
+    <a href="${base}services/whiplash">🔄 Whiplash Treatment</a>
+    <a href="${base}services/back-pain">🦴 Back & Spine Injuries</a>
+    <a href="${base}services/soft-tissue">💪 Soft Tissue Therapy</a>
+    <a href="${base}services/concussion">🧠 Post-Concussion Care</a>
+    <a href="${base}services/rehabilitation">🏃 Rehabilitation</a>
+    <a href="${base}services/documentation">📋 Medical Documentation</a>
     <div class="mobile-group-label">Areas Served</div>
-    <a href="${base}cities/portland.html">📍 Portland</a>
-    <a href="${base}cities/hillsboro.html">📍 Hillsboro</a>
-    <a href="${base}cities/beaverton.html">📍 Beaverton</a>
-    <a href="${base}cities/sherwood.html">📍 Sherwood</a>
-    <a href="${base}cities/salem.html">📍 Salem</a>
-    <a href="${base}cities/lake-oswego.html">📍 Lake Oswego</a>
+    <a href="${base}cities/portland">📍 Portland</a>
+    <a href="${base}cities/hillsboro">📍 Hillsboro</a>
+    <a href="${base}cities/beaverton">📍 Beaverton</a>
+    <a href="${base}cities/sherwood">📍 Sherwood</a>
+    <a href="${base}cities/salem">📍 Salem</a>
+    <a href="${base}cities/lake-oswego">📍 Lake Oswego</a>
     <div class="mobile-group-label">More</div>
-    <a href="${base}blog/index.html">📝 Blog</a>
-    <a href="${base}index.html#faq">❓ FAQ</a>
-    <a href="${base}index.html#contact" style="background:var(--accent);color:white;text-align:center;margin-top:12px;border-radius:8px;">Free Consultation →</a>
+    <a href="${base}blog/index">📝 Blog</a>
+    <a href="${base}#faq">❓ FAQ</a>
+    <a href="${base}#contact" style="background:var(--accent);color:white;text-align:center;margin-top:12px;border-radius:8px;">Free Consultation →</a>
   </div>`;
 }
 
@@ -111,23 +111,23 @@ function renderFooter(base) {
         <div>
           <h4>Services</h4>
           <ul class="footer-links">
-            <li><a href="${base}services/whiplash.html">Whiplash Treatment</a></li>
-            <li><a href="${base}services/back-pain.html">Back & Spine Injuries</a></li>
-            <li><a href="${base}services/soft-tissue.html">Soft Tissue Therapy</a></li>
-            <li><a href="${base}services/concussion.html">Post-Concussion Care</a></li>
-            <li><a href="${base}services/rehabilitation.html">Rehabilitation</a></li>
-            <li><a href="${base}services/documentation.html">Medical Documentation</a></li>
+            <li><a href="${base}services/whiplash">Whiplash Treatment</a></li>
+            <li><a href="${base}services/back-pain">Back & Spine Injuries</a></li>
+            <li><a href="${base}services/soft-tissue">Soft Tissue Therapy</a></li>
+            <li><a href="${base}services/concussion">Post-Concussion Care</a></li>
+            <li><a href="${base}services/rehabilitation">Rehabilitation</a></li>
+            <li><a href="${base}services/documentation">Medical Documentation</a></li>
           </ul>
         </div>
         <div>
           <h4>Areas We Serve</h4>
           <ul class="footer-links">
-            <li><a href="${base}cities/portland.html">Portland, OR</a></li>
-            <li><a href="${base}cities/hillsboro.html">Hillsboro, OR</a></li>
-            <li><a href="${base}cities/beaverton.html">Beaverton, OR</a></li>
-            <li><a href="${base}cities/sherwood.html">Sherwood, OR</a></li>
-            <li><a href="${base}cities/salem.html">Salem, OR</a></li>
-            <li><a href="${base}cities/lake-oswego.html">Lake Oswego, OR</a></li>
+            <li><a href="${base}cities/portland">Portland, OR</a></li>
+            <li><a href="${base}cities/hillsboro">Hillsboro, OR</a></li>
+            <li><a href="${base}cities/beaverton">Beaverton, OR</a></li>
+            <li><a href="${base}cities/sherwood">Sherwood, OR</a></li>
+            <li><a href="${base}cities/salem">Salem, OR</a></li>
+            <li><a href="${base}cities/lake-oswego">Lake Oswego, OR</a></li>
           </ul>
         </div>
         <div>
@@ -135,9 +135,9 @@ function renderFooter(base) {
           <ul class="footer-links">
             <li><a href="tel:+15035550100">📞 (503) 555-0100</a></li>
             <li><a href="mailto:info@oregonaccidentchiro.com">✉ info@oregonaccidentchiro.com</a></li>
-            <li><a href="${base}index.html#contact">Free Consultation</a></li>
-            <li><a href="${base}blog/index.html">Blog</a></li>
-            <li><a href="${base}index.html#faq">FAQ</a></li>
+            <li><a href="${base}#contact">Free Consultation</a></li>
+            <li><a href="${base}blog/index">Blog</a></li>
+            <li><a href="${base}#faq">FAQ</a></li>
           </ul>
           <div style="margin-top:20px;background:rgba(255,255,255,0.07);border-radius:10px;padding:14px 16px;">
             <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);margin-bottom:4px;">Hours</div>

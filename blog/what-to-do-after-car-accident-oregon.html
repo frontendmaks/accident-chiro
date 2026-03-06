@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>What to Do Immediately After a Car Accident in Oregon | Oregon Accident Chiro</title>
   <meta name="description" content="Step-by-step guide for Oregon accident victims. What to do in the first 72 hours after a crash — including why you should see a chiropractor even if you feel fine."/>
-  <link rel="canonical" href="https://oregonaccidentchiro.com/blog/what-to-do-after-car-accident-oregon.html"/>
+  <link rel="canonical" href="https://oregonaccidentchiro.com/blog/what-to-do-after-car-accident-oregon"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
@@ -43,7 +43,7 @@
 
 <section class="page-hero">
   <div class="container">
-    <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="index.html">Blog</a><span>›</span><span>What to Do After a Car Accident in Oregon</span></div>
+    <div class="breadcrumb"><a href="../index">Home</a><span>›</span><a href="index">Blog</a><span>›</span><span>What to Do After a Car Accident in Oregon</span></div>
     <div class="page-hero-badges">
       <span class="badge">Must Read</span>
       <span class="badge">📅 Updated 2025</span>
@@ -114,15 +114,15 @@
         <div class="sidebar-cta">
           <h3>Injured in an Accident?</h3>
           <p>Get same-day chiropractic care — completely covered by your auto insurance.</p>
-          <a href="../index.html#contact" class="btn btn-red" style="width:100%;justify-content:center;">Free Consultation →</a>
+          <a href="../index#contact" class="btn btn-red" style="width:100%;justify-content:center;">Free Consultation →</a>
           <a href="tel:+15035550100" style="display:block;text-align:center;margin-top:12px;color:rgba(255,255,255,0.8);font-size:0.9rem;text-decoration:none;">📞 (503) 555-0100</a>
         </div>
         <div class="related">
           <h4>Related Articles</h4>
-          <a href="what-to-do-after-car-accident-oregon.html" class="related-link">What to Do After an Accident in Oregon →</a>
-          <a href="is-chiropractic-free-after-car-accident.html" class="related-link">Is Chiropractic Free After an Accident? →</a>
-          <a href="whiplash-symptoms-timeline.html" class="related-link">Whiplash Symptoms Timeline →</a>
-          <a href="how-long-see-chiropractor-after-accident.html" class="related-link">How Soon to See a Chiropractor? →</a>
+          <a href="what-to-do-after-car-accident-oregon" class="related-link">What to Do After an Accident in Oregon →</a>
+          <a href="is-chiropractic-free-after-car-accident" class="related-link">Is Chiropractic Free After an Accident? →</a>
+          <a href="whiplash-symptoms-timeline" class="related-link">Whiplash Symptoms Timeline →</a>
+          <a href="how-long-see-chiropractor-after-accident" class="related-link">How Soon to See a Chiropractor? →</a>
         </div>
       </aside>
     </div>
@@ -130,7 +130,17 @@
 </section>
 
 <section style="background:white;padding:60px 0;">
-  <div class="container"><div class="cta-block"><h2>Injured in a Car Accident? Get FREE Care Today</h2><p>Treatment is covered by your Oregon auto insurance. Same-day appointments available. You pay $0.</p><div class="btns"><a href="../index.html#contact" class="btn btn-red btn-lg">Free Consultation →</a><a href="tel:+15035550100" class="btn btn-outline btn-lg">📞 Call Now</a></div></div></div>
+  <div class="container"><div class="cta-block"><h2>Injured in a Car Accident? Get FREE Care Today</h2><p>Treatment is covered by your Oregon auto insurance. Same-day appointments available. You pay $0.</p><div class="btns"><a href="../index#contact" class="btn btn-red btn-lg">Free Consultation →</a><a href="tel:+15035550100" class="btn btn-outline btn-lg">📞 Call Now</a></div></div></div>
+</section>
+
+<div id="emergencyServices"></div>
+
+<section style="background:var(--off-white);padding:72px 0;">
+  <div class="container">
+    <div class="tag">Quick Answers</div>
+    <div class="section-title" style="font-size:clamp(1.4rem,3vw,2rem);">Common Questions After an Oregon Car Accident</div>
+    <div style="max-width:760px;margin-top:32px;" id="blogFaq"></div>
+  </div>
 </section>
 
 <div id="footer"></div>
@@ -140,7 +150,14 @@
   document.getElementById('topbar').innerHTML = renderTopbar();
   document.getElementById('nav').innerHTML = renderNav(base);
   document.getElementById('freeBanner').innerHTML = renderFreeBanner();
+  document.getElementById('emergencyServices').innerHTML = renderEmergencyServices();
   document.getElementById('footer').innerHTML = renderFooter(base);
+  document.getElementById('blogFaq').innerHTML = renderFaq([
+    { q: "Is treatment after a car accident really free in Oregon?", a: "Yes. Oregon's PIP (Personal Injury Protection) law requires every auto insurance policy to cover chiropractic care for accident injuries. We bill your insurer directly — you pay $0. This applies regardless of who caused the accident." },
+    { q: "How quickly should I see a chiropractor after a crash?", a: "Within 72 hours is strongly recommended. Adrenaline masks pain for hours after a crash, so you may feel fine initially. Whiplash, disc injuries, and soft tissue damage peak in inflammation 24–72 hours after impact — starting treatment before symptoms peak significantly improves outcomes." },
+    { q: "What if the other driver was at fault — can I get additional compensation?", a: "Yes. Beyond your PIP medical coverage, you may be entitled to compensation for lost wages, pain and suffering, and vehicle damage from the at-fault driver's liability insurance. We refer you to Oregon PI attorneys (contingency basis, free unless they win) and provide your complete medical records to support the claim." },
+    { q: "My car was barely damaged — do I still need to get checked out?", a: "Absolutely. Research consistently shows vehicle damage does not predict injury severity. Modern bumpers absorb crash energy without visible damage, while transferring that force directly to occupants. Low-speed rear-ends are among our most common injury sources. Always get evaluated — it's free and same-day." }
+  ]);
 </script>
 </body>
 </html>

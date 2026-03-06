@@ -184,7 +184,7 @@ nav {
 /* Dropdown */
 .dropdown {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 0;
   background: white;
   border: 1px solid var(--border);
@@ -193,11 +193,22 @@ nav {
   min-width: 220px;
   opacity: 0;
   pointer-events: none;
-  transform: translateY(-8px);
-  transition: all 0.2s;
+  transform: translateY(0);
+  transition: opacity 0.15s, visibility 0.15s;
+  visibility: hidden;
   z-index: 300;
+  padding-top: 8px; /* visual spacing without gap */
 }
-.nav-menu > li:hover .dropdown { opacity: 1; pointer-events: all; transform: translateY(0); }
+.nav-menu > li:hover .dropdown { opacity: 1; pointer-events: all; visibility: visible; }
+/* Bridge gap so mouse moving to dropdown doesn't lose hover */
+.nav-menu > li::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 12px;
+}
 .dropdown a {
   display: flex;
   align-items: center;
