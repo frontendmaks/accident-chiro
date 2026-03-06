@@ -1,0 +1,238 @@
+// Shared components for Oregon Accident Chiro site
+// Include this script on every page: <script src="../components.js"></script>
+
+function getBasePath() {
+  const depth = window.location.pathname.split('/').filter(Boolean).length;
+  // depth 0 = root, 1 = cities/services/blog folder, 2 = actual page inside folder
+  if (depth === 0) return './';
+  if (depth === 1) return './';
+  return '../';
+}
+
+function renderTopbar() {
+  return `<div class="topbar">
+    🚗 <strong>Auto Accident? Treatment is 100% FREE</strong> — Billed directly to your insurance. No out-of-pocket cost. <a href="#contact">Get Help Now →</a>
+  </div>`;
+}
+
+function renderNav(base) {
+  return `<nav>
+    <div class="nav-inner">
+      <a href="${base}index.html" class="nav-logo">Oregon Accident<span>Chiro</span></a>
+      <ul class="nav-menu">
+        <li>
+          <a href="#">Services <span class="arrow">▾</span></a>
+          <div class="dropdown">
+            <a href="${base}services/whiplash.html"><span class="icon">🔄</span> Whiplash Treatment</a>
+            <a href="${base}services/back-pain.html"><span class="icon">🦴</span> Back & Spine Injuries</a>
+            <a href="${base}services/soft-tissue.html"><span class="icon">💪</span> Soft Tissue Therapy</a>
+            <a href="${base}services/concussion.html"><span class="icon">🧠</span> Post-Concussion Care</a>
+            <a href="${base}services/rehabilitation.html"><span class="icon">🏃</span> Rehabilitation</a>
+            <a href="${base}services/documentation.html"><span class="icon">📋</span> Medical Documentation</a>
+          </div>
+        </li>
+        <li>
+          <a href="#">Areas Served <span class="arrow">▾</span></a>
+          <div class="dropdown">
+            <a href="${base}cities/portland.html"><span class="icon">📍</span> Portland, OR</a>
+            <a href="${base}cities/hillsboro.html"><span class="icon">📍</span> Hillsboro, OR</a>
+            <a href="${base}cities/beaverton.html"><span class="icon">📍</span> Beaverton, OR</a>
+            <a href="${base}cities/sherwood.html"><span class="icon">📍</span> Sherwood, OR</a>
+            <a href="${base}cities/salem.html"><span class="icon">📍</span> Salem, OR</a>
+            <a href="${base}cities/lake-oswego.html"><span class="icon">📍</span> Lake Oswego, OR</a>
+          </div>
+        </li>
+        <li><a href="${base}blog/index.html">Blog</a></li>
+        <li><a href="${base}index.html#faq">FAQ</a></li>
+      </ul>
+      <a href="tel:+15035550100" class="nav-phone">📞 (503) 555-0100</a>
+      <a href="${base}index.html#contact" class="btn btn-red btn-sm nav-cta">Free Consultation</a>
+      <div class="hamburger" onclick="openMobileNav()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" onclick="closeMobileNav()">✕</button>
+    <a href="${base}index.html">🏠 Home</a>
+    <div class="mobile-group-label">Services</div>
+    <a href="${base}services/whiplash.html">🔄 Whiplash Treatment</a>
+    <a href="${base}services/back-pain.html">🦴 Back & Spine Injuries</a>
+    <a href="${base}services/soft-tissue.html">💪 Soft Tissue Therapy</a>
+    <a href="${base}services/concussion.html">🧠 Post-Concussion Care</a>
+    <a href="${base}services/rehabilitation.html">🏃 Rehabilitation</a>
+    <a href="${base}services/documentation.html">📋 Medical Documentation</a>
+    <div class="mobile-group-label">Areas Served</div>
+    <a href="${base}cities/portland.html">📍 Portland</a>
+    <a href="${base}cities/hillsboro.html">📍 Hillsboro</a>
+    <a href="${base}cities/beaverton.html">📍 Beaverton</a>
+    <a href="${base}cities/sherwood.html">📍 Sherwood</a>
+    <a href="${base}cities/salem.html">📍 Salem</a>
+    <a href="${base}cities/lake-oswego.html">📍 Lake Oswego</a>
+    <div class="mobile-group-label">More</div>
+    <a href="${base}blog/index.html">📝 Blog</a>
+    <a href="${base}index.html#faq">❓ FAQ</a>
+    <a href="${base}index.html#contact" style="background:var(--accent);color:white;text-align:center;margin-top:12px;border-radius:8px;">Free Consultation →</a>
+  </div>`;
+}
+
+function renderFreeBanner() {
+  return `<div class="free-banner">
+    <div class="free-banner-inner">
+      <div class="free-banner-text">
+        <h3>🚗 Accident Treatment is 100% FREE for You</h3>
+        <p>Oregon PIP law covers chiropractic care. We bill your auto insurance directly — you pay $0 out of pocket.</p>
+      </div>
+      <div class="free-banner-logos">
+        <span class="insurer-badge">State Farm</span>
+        <span class="insurer-badge">Allstate</span>
+        <span class="insurer-badge">Progressive</span>
+        <span class="insurer-badge">GEICO</span>
+        <span class="insurer-badge">Farmers</span>
+        <span class="insurer-badge">USAA</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderFooter(base) {
+  return `<footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">Oregon Accident<span>Chiro</span></div>
+          <p class="footer-desc">Portland's trusted auto accident chiropractic specialists. Treatment covered by your auto insurance — no out-of-pocket cost. Serving all of Oregon.</p>
+          <div class="footer-badges">
+            <span class="footer-badge">✅ Insurance Accepted</span>
+            <span class="footer-badge">⭐ 4.9 Rating</span>
+            <span class="footer-badge">💰 $0 Cost</span>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="${base}services/whiplash.html">Whiplash Treatment</a></li>
+            <li><a href="${base}services/back-pain.html">Back & Spine Injuries</a></li>
+            <li><a href="${base}services/soft-tissue.html">Soft Tissue Therapy</a></li>
+            <li><a href="${base}services/concussion.html">Post-Concussion Care</a></li>
+            <li><a href="${base}services/rehabilitation.html">Rehabilitation</a></li>
+            <li><a href="${base}services/documentation.html">Medical Documentation</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Areas We Serve</h4>
+          <ul class="footer-links">
+            <li><a href="${base}cities/portland.html">Portland, OR</a></li>
+            <li><a href="${base}cities/hillsboro.html">Hillsboro, OR</a></li>
+            <li><a href="${base}cities/beaverton.html">Beaverton, OR</a></li>
+            <li><a href="${base}cities/sherwood.html">Sherwood, OR</a></li>
+            <li><a href="${base}cities/salem.html">Salem, OR</a></li>
+            <li><a href="${base}cities/lake-oswego.html">Lake Oswego, OR</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+15035550100">📞 (503) 555-0100</a></li>
+            <li><a href="mailto:info@oregonaccidentchiro.com">✉ info@oregonaccidentchiro.com</a></li>
+            <li><a href="${base}index.html#contact">Free Consultation</a></li>
+            <li><a href="${base}blog/index.html">Blog</a></li>
+            <li><a href="${base}index.html#faq">FAQ</a></li>
+          </ul>
+          <div style="margin-top:20px;background:rgba(255,255,255,0.07);border-radius:10px;padding:14px 16px;">
+            <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);margin-bottom:4px;">Hours</div>
+            <div style="font-size:0.85rem;color:white;">Mon–Fri: 8am – 6pm</div>
+            <div style="font-size:0.85rem;color:white;">Saturday: 9am – 2pm</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Oregon Accident Chiropractic. All rights reserved.</span>
+        <span>Portland, Oregon</span>
+      </div>
+      <div class="footer-disclaimer">
+        The information on this website is for general informational purposes only and does not constitute medical advice. Results may vary. Insurance coverage depends on your specific policy. Oregon Accident Chiropractic is a lead generation website connecting patients with licensed chiropractic providers in Oregon.
+      </div>
+    </div>
+  </footer>
+  <div class="sticky-bar"><a href="tel:+15035550100">📞 Call Free — (503) 555-0100 — No Cost to You</a></div>`;
+}
+
+function renderForm(formId) {
+  return `<div class="form-wrap" id="${formId}Wrap">
+    <div class="form-title">Get Free Consultation</div>
+    <p class="form-sub">We'll call you within 1 hour during business hours. 100% confidential.</p>
+    <div class="form-row">
+      <div class="form-group"><label>First Name *</label><input type="text" id="${formId}_fname" placeholder="John" /></div>
+      <div class="form-group"><label>Last Name *</label><input type="text" id="${formId}_lname" placeholder="Smith" /></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Phone *</label><input type="tel" id="${formId}_phone" placeholder="(503) 000-0000" /></div>
+      <div class="form-group"><label>Email</label><input type="email" id="${formId}_email" placeholder="you@email.com" /></div>
+    </div>
+    <div class="form-group"><label>Accident Date *</label><input type="date" id="${formId}_date" /></div>
+    <div class="form-group"><label>Your City *</label>
+      <select id="${formId}_city">
+        <option value="">Select city</option>
+        <option>Portland</option><option>Hillsboro</option><option>Beaverton</option>
+        <option>Sherwood</option><option>Salem</option><option>Lake Oswego</option><option>Other</option>
+      </select>
+    </div>
+    <div class="form-group"><label>Symptoms (optional)</label><textarea id="${formId}_msg" placeholder="Neck pain, back pain, headaches..."></textarea></div>
+    <button class="form-submit" onclick="submitForm('${formId}')">Request Free Consultation — $0 Cost →</button>
+    <p class="form-note">🔒 Confidential • No spam • No cost to you</p>
+    <div class="success-box" id="${formId}Success">
+      <div class="ico">✅</div>
+      <h4>We'll call you within 1 hour!</h4>
+      <p>A specialist will review your case and schedule your free consultation. Remember — treatment is 100% covered by your insurance.</p>
+    </div>
+  </div>`;
+}
+
+function renderFaq(items) {
+  return items.map(item => `
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">${item.q}<span class="faq-toggle-btn">+</span></div>
+      <div class="faq-a"><div class="faq-a-inner">${item.a}</div></div>
+    </div>`).join('');
+}
+
+function renderReviews(reviews) {
+  const colors = ['#1a56db','#e8472a','#059669','#7c3aed','#d97706'];
+  return reviews.map((r, i) => `
+    <div class="review-card fade-up">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"${r.text}"</p>
+      <div class="review-author">
+        <div class="review-avatar" style="background:${colors[i % colors.length]}">${r.initials}</div>
+        <div><div class="review-name">${r.name}</div><div class="review-loc">${r.loc}</div></div>
+      </div>
+    </div>`).join('');
+}
+
+// Shared JS functions
+function openMobileNav() { document.getElementById('mobileNav').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); document.body.style.overflow=''; }
+function toggleFaq(el) {
+  const item = el.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+function submitForm(id) {
+  const fname = document.getElementById(id+'_fname')?.value;
+  const phone = document.getElementById(id+'_phone')?.value;
+  const city = document.getElementById(id+'_city')?.value;
+  const date = document.getElementById(id+'_date')?.value;
+  if (!fname || !phone || !city || !date) { alert('Please fill in all required fields.'); return; }
+  document.getElementById(id+'Wrap').querySelector('.form-submit').style.display='none';
+  document.getElementById(id+'Success').style.display='block';
+  document.getElementById(id+'Success').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function initAnimations() {
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach((e,i) => { if(e.isIntersecting) { setTimeout(()=>e.target.classList.add('visible'), i*80); } });
+  }, {threshold: 0.08});
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+}
+document.addEventListener('DOMContentLoaded', initAnimations);
