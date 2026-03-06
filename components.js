@@ -236,3 +236,71 @@ function initAnimations() {
   document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
 }
 document.addEventListener('DOMContentLoaded', initAnimations);
+
+// ── Emergency Services Block ──────────────────────────────────
+function renderEmergencyServices() {
+  return `
+  <section style="background:var(--navy);padding:80px 0;">
+    <div class="container">
+      <div class="tag" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.8);">Complete Accident Support</div>
+      <div class="section-title" style="color:white;">We Help With More Than Just Your Injuries</div>
+      <div class="section-sub" style="color:rgba(255,255,255,0.7);">After a crash, you need a team. We coordinate with trusted Oregon professionals to handle every aspect of your recovery — medical, legal, and logistical.</div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:52px;">
+        <div style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:32px 28px;">
+          <div style="font-size:2.5rem;margin-bottom:16px;">⚖️</div>
+          <h3 style="font-family:'Playfair Display',serif;font-weight:900;color:white;font-size:1.15rem;margin-bottom:12px;">Personal Injury Attorneys</h3>
+          <p style="color:rgba(255,255,255,0.7);font-size:0.88rem;line-height:1.7;margin-bottom:20px;">Accident wasn't your fault? Our network of Oregon PI attorneys works on contingency — you pay nothing unless they win. We provide the medical documentation they need to build a strong case.</p>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> Free case evaluation within 24 hrs</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> No fee unless you win</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> Oregon-licensed, accident specialists</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> We coordinate records directly</li>
+          </ul>
+        </div>
+        <div style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:32px 28px;">
+          <div style="font-size:2.5rem;margin-bottom:16px;">🚛</div>
+          <h3 style="font-family:'Playfair Display',serif;font-weight:900;color:white;font-size:1.15rem;margin-bottom:12px;">24/7 Tow & Recovery</h3>
+          <p style="color:rgba(255,255,255,0.7);font-size:0.88rem;line-height:1.7;margin-bottom:20px;">Stranded on I-5, I-84, or anywhere in Oregon? Our partner tow companies operate around the clock and work directly with all major insurance carriers — no upfront payment needed.</p>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> 24/7 dispatch — 30 min avg arrival</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> Covered by your auto insurance</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> Flatbed & standard tow available</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> All Oregon highways & streets</li>
+          </ul>
+        </div>
+        <div style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:32px 28px;">
+          <div style="font-size:2.5rem;margin-bottom:16px;">🚗</div>
+          <h3 style="font-family:'Playfair Display',serif;font-weight:900;color:white;font-size:1.15rem;margin-bottom:12px;">Rental Car Coordination</h3>
+          <p style="color:rgba(255,255,255,0.7);font-size:0.88rem;line-height:1.7;margin-bottom:20px;">Your car is in the shop — you still need to get to work and to your treatment appointments. We help you navigate rental car coverage with your insurance so you're never left stranded.</p>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> Same-day rental arrangements</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> Insurance billing coordination</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> Partner locations across Oregon</li>
+            <li style="color:rgba(255,255,255,0.85);font-size:0.83rem;display:flex;gap:10px;align-items:center;"><span style="color:#6ee7b7;">✓</span> Enterprise, Hertz, Budget partners</li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top:32px;background:rgba(234,179,8,0.12);border:1px solid rgba(234,179,8,0.3);border-radius:14px;padding:24px 28px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+        <span style="font-size:2rem;">💡</span>
+        <div>
+          <strong style="color:#fde68a;font-size:0.95rem;">One call connects you to everything</strong>
+          <p style="color:rgba(255,255,255,0.7);font-size:0.88rem;margin-top:4px;">Call us and we coordinate the entire process — chiro care, tow, attorney referral, rental car. You focus on recovering. We handle the chaos.</p>
+        </div>
+        <a href="#contact" class="btn btn-red" style="margin-left:auto;">Get Help Now →</a>
+      </div>
+    </div>
+  </section>`;
+}
+
+// ── Photo gallery component ───────────────────────────────────
+function renderPhotoSection(photos) {
+  // photos = [{url, alt, caption}]
+  const cols = photos.length === 2 ? 'repeat(2,1fr)' : photos.length === 4 ? 'repeat(2,1fr)' : 'repeat(3,1fr)';
+  return `<div style="display:grid;grid-template-columns:${cols};gap:16px;margin-top:36px;">
+    ${photos.map(p => `
+      <div style="border-radius:14px;overflow:hidden;position:relative;">
+        <img src="${p.url}" alt="${p.alt}" loading="lazy" style="width:100%;height:240px;object-fit:cover;display:block;">
+        ${p.caption ? `<div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,0.7));padding:16px 14px 12px;color:white;font-size:0.78rem;font-weight:600;">${p.caption}</div>` : ''}
+      </div>`).join('')}
+  </div>`;
+}
