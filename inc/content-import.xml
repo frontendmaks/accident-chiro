@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>Oregon Accident Chiro</title>
+  <link>https://oregonaccidentchiro.com</link>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://oregonaccidentchiro.com</wp:base_site_url>
+  <wp:base_blog_url>https://oregonaccidentchiro.com</wp:base_blog_url>
+
+  <!-- ══ CATEGORIES ══ -->
+  <wp:category>
+    <wp:term_id>1</wp:term_id>
+    <wp:category_nicename>insurance</wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Insurance]]></wp:cat_name>
+  </wp:category>
+  <wp:category>
+    <wp:term_id>2</wp:term_id>
+    <wp:category_nicename>injury-guide</wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Injury Guide]]></wp:cat_name>
+  </wp:category>
+  <wp:category>
+    <wp:term_id>3</wp:term_id>
+    <wp:category_nicename>oregon-law</wp:category_nicename>
+    <wp:category_parent></wp:category_parent>
+    <wp:cat_name><![CDATA[Oregon Law]]></wp:cat_name>
+  </wp:category>
+
+  <!-- ══ SERVICE: Whiplash ══ -->
+  <item>
+    <title>Whiplash Treatment</title>
+    <link>https://oregonaccidentchiro.com/services/whiplash-treatment</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>Whiplash is the most common injury from car accidents. When your head snaps forward and backward during a collision — even at low speeds — the muscles, ligaments, and tendons in your neck are stretched beyond their normal range, causing significant soft tissue damage.</p>
+
+<h2>Why Whiplash Needs Specialist Treatment</h2>
+<p>General chiropractors treat many conditions. We treat only auto accident injuries. This specialization means we understand crash biomechanics, the specific force patterns of different types of collisions, and how those forces translate into cervical spine injury.</p>
+
+<h2>Your Treatment is 100% Free</h2>
+<p>Oregon's PIP law requires your auto insurer to cover whiplash treatment after any accident, regardless of fault. We verify your coverage before your first visit and bill insurance directly. You pay $0.</p>
+
+<h2>Our Whiplash Treatment Protocol</h2>
+<p><strong>1. Comprehensive Assessment</strong> — Full cervical spine evaluation, range of motion testing, orthopedic and neurological screening. We identify all injured structures, not just where it hurts.</p>
+<p><strong>2. Spinal Manipulation</strong> — Precise, gentle adjustments to restore proper alignment, reduce nerve irritation, and improve mobility.</p>
+<p><strong>3. Soft Tissue Therapy</strong> — Myofascial release, trigger point therapy, and instrument-assisted techniques to break down scar tissue and reduce muscle spasm.</p>
+<p><strong>4. Therapeutic Exercise</strong> — Progressive rehabilitation exercises to strengthen the deep neck stabilizers and restore normal movement patterns.</p>
+<p><strong>5. Progress Documentation</strong> — Detailed visit records tracking your recovery, supporting your insurance claim and any personal injury proceedings.</p>
+
+<h2>Common Whiplash Symptoms</h2>
+<ul>
+<li>Neck pain and stiffness — difficulty turning the head</li>
+<li>Headaches starting at the base of the skull</li>
+<li>Dizziness and vertigo</li>
+<li>Shoulder and upper back pain</li>
+<li>Arm tingling or numbness (nerve involvement)</li>
+<li>Fatigue and difficulty concentrating</li>
+</ul>
+
+<h2>⚠️ Don't Wait — Whiplash Symptoms Are Delayed</h2>
+<p>Adrenaline after a crash masks pain for hours or days. Many patients feel completely fine right after the accident — then wake up unable to move 48 hours later. Whiplash treated within 72 hours of the accident has significantly better recovery outcomes. And it's free — there is no reason to wait.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Specialized whiplash care for auto accident victims — fully covered by your Oregon auto insurance. You pay $0. Same-day appointments in Portland and surrounding areas.]]></excerpt:encoded>
+    <wp:post_type>oac_service</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_icon</wp:meta_key><wp:meta_value>🔄</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ SERVICE: Back & Spine ══ -->
+  <item>
+    <title>Back &amp; Spine Injuries</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>Back and spine injuries from car accidents range from minor muscle strains to herniated discs and spinal misalignment. The compressive and shear forces during a collision can damage intervertebral discs, facet joints, and spinal ligaments — often without immediate pain.</p>
+
+<h2>Your Treatment is 100% Free</h2>
+<p>Oregon PIP covers all chiropractic care for accident-related back and spine injuries. We bill your insurer directly — you pay nothing out of pocket.</p>
+
+<h2>Types of Back Injuries We Treat</h2>
+<p><strong>Lumbar Sprains and Strains</strong> — Damage to the muscles and ligaments supporting the lower spine. Most common in rear-end collisions.</p>
+<p><strong>Herniated or Bulging Discs</strong> — Impact forces can push intervertebral disc material out of position, pressing on nerve roots and causing radiating pain down the legs (sciatica).</p>
+<p><strong>Facet Joint Injuries</strong> — The small joints between vertebrae absorb significant force during impacts and can become inflamed or locked.</p>
+<p><strong>Spinal Misalignment (Subluxation)</strong> — Vertebrae shifted out of their proper position by crash forces, causing nerve irritation and muscle imbalance.</p>
+
+<h2>Back Injury Symptoms to Watch For</h2>
+<ul>
+<li>Lower back pain or stiffness</li>
+<li>Pain radiating into the hips or buttocks</li>
+<li>Sciatica — pain, numbness, or tingling down one leg</li>
+<li>Difficulty standing upright or walking</li>
+<li>Pain that worsens after sitting</li>
+</ul>
+
+<h2>Same-Day Appointments Available</h2>
+<p>Call us today. We keep appointment slots open specifically for accident victims and will see you the same day you call. The sooner treatment begins, the better your recovery outcomes.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Herniated discs, lumbar sprains, and spinal misalignment after car accidents. Covered by your Oregon auto insurance — you pay $0. Same-day appointments in Portland.]]></excerpt:encoded>
+    <wp:post_type>oac_service</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_icon</wp:meta_key><wp:meta_value>🦴</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ SERVICE: Soft Tissue ══ -->
+  <item>
+    <title>Soft Tissue Therapy</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>Soft tissue injuries — sprains, strains, and muscle tears — are the most common result of car accident trauma. Unlike bone fractures, soft tissue damage doesn't show on X-rays, making specialist chiropractic evaluation critical for proper diagnosis and treatment.</p>
+
+<h2>This Treatment is Covered by Your Insurance</h2>
+<p>Oregon's PIP law covers soft tissue therapy after auto accidents. We bill your insurance directly — State Farm, Allstate, Progressive, GEICO, and all other carriers. You pay $0.</p>
+
+<h2>What Is Soft Tissue?</h2>
+<p>Soft tissue includes muscles, tendons, ligaments, and fascia — the connective tissue that holds your body together. During a car accident, these structures absorb enormous force and can be stretched, torn, or compressed beyond their normal capacity.</p>
+
+<h2>Our Soft Tissue Treatment Techniques</h2>
+<p><strong>Myofascial Release</strong> — Hands-on technique to release tension in the fascia (connective tissue) surrounding muscles, restoring normal movement and reducing pain.</p>
+<p><strong>Trigger Point Therapy</strong> — Targeted pressure on specific points of muscular tension that refer pain to other areas of the body.</p>
+<p><strong>Instrument-Assisted Soft Tissue Mobilization (IASTM)</strong> — Specialized tools used to break down scar tissue and promote healing in damaged soft tissue.</p>
+<p><strong>Active Release Technique</strong> — Combines precise tension with specific movements to treat soft tissue injuries and break down adhesions.</p>
+
+<h2>Don't Let Soft Tissue Injuries Become Chronic</h2>
+<p>Untreated soft tissue injuries frequently develop into chronic pain conditions. Scar tissue forms within weeks, permanently restricting movement and causing recurring pain. Early treatment — which is free under Oregon law — dramatically reduces this risk.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Muscle tears, sprains, and strains from car accident impacts. Covered by auto insurance. Hands-on myofascial therapy to heal damaged tissue and prevent chronic pain.]]></excerpt:encoded>
+    <wp:post_type>oac_service</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>3</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_icon</wp:meta_key><wp:meta_value>💪</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ SERVICE: Concussion ══ -->
+  <item>
+    <title>Post-Concussion Care</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>Many accident victims experience headaches, dizziness, and cognitive fog after a crash — even without a direct head impact. Cervicogenic headaches (originating from the neck) and post-concussion symptoms respond exceptionally well to chiropractic care.</p>
+
+<h2>Free After a Car Accident</h2>
+<p>Post-concussion chiropractic care is covered by your Oregon auto insurance. We handle all billing — you pay nothing.</p>
+
+<h2>The Cervical Spine Connection</h2>
+<p>The upper cervical spine (C1-C2) has a direct neurological connection to the brain. Misalignment and muscle tension in this region can cause or amplify headaches, dizziness, and even cognitive symptoms. Many patients diagnosed with post-concussion syndrome actually have cervicogenic symptoms that resolve with proper spinal care.</p>
+
+<h2>Symptoms We Treat</h2>
+<ul>
+<li>Headaches — tension, pressure, or throbbing behind the eyes</li>
+<li>Dizziness and balance problems</li>
+<li>Sensitivity to light and noise</li>
+<li>Cognitive fog and difficulty concentrating</li>
+<li>Sleep disturbances</li>
+<li>Neck pain associated with headaches</li>
+</ul>
+
+<h2>Our Approach</h2>
+<p>We work with a gentle, specific upper cervical protocol designed for post-concussion patients. Treatment is modified based on symptom severity, and we coordinate with neurologists or other specialists when appropriate.</p>
+<p>If you experienced any head symptoms after your accident — even without a diagnosed concussion — please call us. Same-day appointments available, and treatment is covered by your insurance.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Headaches, dizziness, and cognitive symptoms after car accidents — covered by auto insurance. Cervicogenic headache and post-concussion specialists. Free evaluation.]]></excerpt:encoded>
+    <wp:post_type>oac_service</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>4</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_icon</wp:meta_key><wp:meta_value>🧠</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ SERVICE: Rehabilitation ══ -->
+  <item>
+    <title>Rehabilitation</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>Recovery from an auto accident injury requires more than passive treatment. Active rehabilitation — targeted exercises to rebuild strength, flexibility, and neuromuscular control — is essential for full recovery and preventing re-injury or chronic pain.</p>
+
+<h2>Covered by Your Auto Insurance</h2>
+<p>Rehabilitation exercises as part of your accident recovery are covered by Oregon PIP. We bill your insurer directly — you pay $0.</p>
+
+<h2>Our Rehabilitation Approach</h2>
+<p>Every rehabilitation program we create is specific to your injuries, your current fitness level, and your recovery goals. We don't use generic exercise sheets — we teach you exactly what to do, watch your form, and progress the difficulty as you improve.</p>
+
+<h2>Phases of Rehabilitation</h2>
+<p><strong>Phase 1 — Pain Control and Protection</strong> — Gentle range-of-motion exercises to prevent stiffness while protecting healing tissue. Typically weeks 1-3.</p>
+<p><strong>Phase 2 — Restore Movement</strong> — Progressive exercises to rebuild full range of motion in the spine and joints. Weeks 3-6.</p>
+<p><strong>Phase 3 — Strength and Stability</strong> — Target the deep stabilizing muscles that were weakened or inhibited by injury. Weeks 6-12.</p>
+<p><strong>Phase 4 — Functional Recovery</strong> — Return to full daily activities, sport, and work without restriction or pain.</p>
+
+<h2>Why Rehabilitation Matters for Your Claim</h2>
+<p>Completing your full rehabilitation course creates a comprehensive treatment record that demonstrates the full extent of your recovery effort. This documentation supports stronger insurance settlements and personal injury claims.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Customized therapeutic exercise programs for car accident recovery in Oregon. Rebuild strength, mobility, and function — covered 100% by your auto insurance.]]></excerpt:encoded>
+    <wp:post_type>oac_service</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>5</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_icon</wp:meta_key><wp:meta_value>🏃</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ SERVICE: Documentation ══ -->
+  <item>
+    <title>Medical Documentation</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>After a car accident, thorough medical documentation is not just about your health — it's the foundation of your insurance claim and any personal injury case. Our detailed records have helped hundreds of Oregon accident victims receive fair compensation.</p>
+
+<h2>Documentation is Part of Your FREE Treatment</h2>
+<p>Medical documentation and records are included as part of your accident treatment — fully covered by your Oregon PIP insurance. We don't charge extra for records that support your claim.</p>
+
+<h2>What Our Documentation Includes</h2>
+<p><strong>Initial Injury Report</strong> — Comprehensive documentation of your injuries at the time of first presentation, establishing the baseline and connection to the accident.</p>
+<p><strong>Progress Notes</strong> — Detailed records from every visit documenting your symptoms, treatment provided, and recovery progress.</p>
+<p><strong>Functional Assessment</strong> — Objective measurements of your range of motion, strength, and functional limitations.</p>
+<p><strong>Narrative Report</strong> — Written medical opinion summarizing your injuries, treatment, prognosis, and any permanent impairment — essential for personal injury claims.</p>
+<p><strong>Billing Records</strong> — Complete documentation of all charges submitted to insurance, supporting the economic damages portion of your claim.</p>
+
+<h2>We Work with Oregon PI Attorneys</h2>
+<p>We regularly work with Oregon personal injury attorneys and understand exactly what documentation they need. If you have an attorney, we will coordinate directly with their office to ensure your records support your case effectively.</p>
+<p>If you don't yet have an attorney and your accident was someone else's fault, we can refer you to experienced Oregon PI lawyers we trust.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Professional medical documentation for Oregon auto accident insurance claims and personal injury lawsuits. We work with PI attorneys throughout Oregon.]]></excerpt:encoded>
+    <wp:post_type>oac_service</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>6</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_icon</wp:meta_key><wp:meta_value>📋</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ CITY: Portland ══ -->
+  <item>
+    <title>Portland</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>Portland sees tens of thousands of auto accidents every year on I-205, I-84, I-5, Barbur Blvd, 82nd Ave, Powell Blvd, and busy neighborhood streets. Many victims don't realize they qualify for free chiropractic care under Oregon law.</p>
+
+<p>As Portland's dedicated auto accident chiropractic specialists, we understand the specific injury patterns common on Portland roads. Whether you were rear-ended on I-84 heading into downtown, hit on 82nd Ave, or involved in an intersection collision in a Portland neighborhood — we treat the specific injuries that result from these crash scenarios.</p>
+
+<h2>Oregon PIP Coverage for Portland Patients</h2>
+<p>Oregon law requires your auto insurer to pay for chiropractic care — no fault determination needed. Your treatment starts immediately. We verify your coverage before your first visit and handle all billing directly with State Farm, Allstate, Progressive, GEICO, Farmers, USAA, and every other insurer.</p>
+
+<h2>Portland Neighborhoods We Serve</h2>
+<p>NE Portland, SE Portland, NW Portland, SW Portland, Downtown Portland, East Portland, St. Johns, Sellwood, Hawthorne, Alberta Arts District, Division St., Pearl District, Lents, Montavilla, and all other Portland neighborhoods.</p>
+
+<h2>Same-Day Appointments in Portland</h2>
+<p>We reserve appointment slots specifically for accident victims. Call today — we'll see you today. Because in whiplash and auto accident injuries, timing is everything.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Portland car accident chiropractic specialists. All Portland neighborhoods. 100% covered by Oregon auto insurance — you pay $0. Same-day appointments available.]]></excerpt:encoded>
+    <wp:post_type>oac_city</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_county</wp:meta_key><wp:meta_value>Primary Location</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_oac_roads</wp:meta_key><wp:meta_value>I-205, I-84, I-5, Barbur Blvd, 82nd Ave, Powell Blvd, and Burnside</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_oac_neighborhoods</wp:meta_key><wp:meta_value>NE Portland, SE Portland, NW Portland, SW Portland, Downtown, East Portland, St. Johns, Sellwood, Hawthorne, Pearl District</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ CITY: Hillsboro ══ -->
+  <item>
+    <title>Hillsboro</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>Hillsboro sees significant auto accident traffic on Hwy 26, TV Hwy (Tualatin Valley Highway), and Cornell Road — some of Washington County's busiest and most accident-prone corridors. We serve all Hillsboro accident victims with the same same-day, no-cost care available throughout the Portland metro.</p>
+
+<h2>Free Treatment for Hillsboro Accident Victims</h2>
+<p>Oregon PIP covers chiropractic care regardless of which city your accident occurred in. Hillsboro residents are fully covered — we bill your insurance directly and you pay $0.</p>
+
+<h2>Hillsboro's Most Common Accident Locations</h2>
+<p>TV Hwy through Beaverton and Hillsboro, Hwy 26 on-ramps and off-ramps near the Intel campus, Cornell Road intersections, and Baseline Road are among the highest-accident corridors in Washington County.</p>
+
+<h2>Areas Near Hillsboro We Serve</h2>
+<p>North Plains, Forest Grove, Cornelius, Aloha, and all surrounding Washington County communities.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Hillsboro car accident chiropractor. Hwy 26, TV Hwy, and Cornell Road accident specialists. Covered by Oregon auto insurance — $0 cost. Same-day appointments.]]></excerpt:encoded>
+    <wp:post_type>oac_city</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_county</wp:meta_key><wp:meta_value>Washington County</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_oac_roads</wp:meta_key><wp:meta_value>Hwy 26, TV Hwy, and Cornell Road</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_oac_neighborhoods</wp:meta_key><wp:meta_value>NE Hillsboro, SE Hillsboro, North Plains, Forest Grove, Cornelius, Aloha, Hillsboro Downtown</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ CITY: Salem ══ -->
+  <item>
+    <title>Salem</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[
+<p>Salem is Oregon's capital and one of the state's highest-accident cities, with major accident corridors on I-5, Commercial St SE, Center St NE, and Mission St SE. We serve Salem accident victims throughout Marion County with the same free, specialist care available in Portland.</p>
+
+<h2>Salem PIP Coverage — You Pay Nothing</h2>
+<p>Oregon's PIP law applies statewide. Salem residents are fully covered for chiropractic care after any auto accident — regardless of fault. We bill your insurance directly.</p>
+
+<h2>Same-Day Appointments for Salem Patients</h2>
+<p>Don't wait. The first 72 hours after your accident are critical for your recovery and your insurance claim. Call us today — same-day appointments available.</p>
+
+<h2>Areas Near Salem We Serve</h2>
+<p>Keizer, Turner, Silverton, Woodburn, and all Willamette Valley communities near Salem.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Salem, Oregon car accident chiropractor. I-5, Commercial St SE accident specialists. 100% covered by Oregon auto insurance — you pay $0.]]></excerpt:encoded>
+    <wp:post_type>oac_city</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:menu_order>5</wp:menu_order>
+    <wp:postmeta><wp:meta_key>_oac_county</wp:meta_key><wp:meta_value>Willamette Valley</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_oac_roads</wp:meta_key><wp:meta_value>I-5, Commercial St SE, Center St NE, and Mission St SE</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_oac_neighborhoods</wp:meta_key><wp:meta_value>Downtown Salem, South Salem, West Salem, Keizer, Turner, Silverton, Woodburn</wp:meta_value></wp:postmeta>
+  </item>
+
+  <!-- ══ BLOG: What to do after accident ══ -->
+  <item>
+    <title>What to Do Immediately After a Car Accident in Oregon</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <category domain="category" nicename="oregon-law"><![CDATA[Oregon Law]]></category>
+    <content:encoded><![CDATA[
+<p>Getting into a car accident is overwhelming. Adrenaline is pumping, your hands are shaking, and you're not sure what to do first. This guide walks you through exactly what to do — step by step — to protect your health and your legal rights in Oregon.</p>
+
+<h2>Step 1: Make Sure Everyone is Safe (First 5 Minutes)</h2>
+<p>Move your vehicle out of traffic if it's safe to do so. Turn on your hazard lights. Check yourself and your passengers for obvious injuries — but remember, adrenaline masks pain. You may feel fine even if you're seriously injured.</p>
+<p>If anyone appears seriously injured, do not move them. Call 911 immediately.</p>
+
+<h2>Step 2: Call the Police</h2>
+<p>In Oregon, you are required by law to report accidents that result in injury, death, or property damage exceeding $2,500. Even in minor accidents, a police report creates an official record that protects you legally. Get the report number before you leave the scene.</p>
+
+<h2>Step 3: Exchange Information</h2>
+<p>Collect from all involved drivers: full name and contact information, driver's license number, license plate number, insurance company and policy number, vehicle make and model. Also collect contact information from any witnesses.</p>
+
+<h2>Step 4: Document Everything at the Scene</h2>
+<p>Use your phone to photograph: all vehicles and damage, the road and intersection, skid marks, traffic signs, weather conditions, and any visible injuries. This evidence can be critical later.</p>
+
+<h2>Step 5: Notify Your Insurance Company</h2>
+<p>Report the accident to your insurer promptly. This activates your PIP (Personal Injury Protection) coverage, which pays for your chiropractic care regardless of fault.</p>
+
+<h2>Step 6: See a Chiropractor Within 72 Hours — It's FREE</h2>
+<p>This is the most important step that most accident victims skip — and deeply regret later. Even if you feel completely fine, your body has absorbed significant force. Whiplash, disc injuries, and soft tissue damage frequently have delayed symptoms, appearing 24 to 72 hours after the accident when adrenaline wears off.</p>
+
+<p>And the critical thing to remember: <strong>this entire process costs you nothing.</strong> Oregon's PIP law requires your auto insurer to cover chiropractic care for accident injuries. Call us today — same-day appointments available.</p>
+
+<h2>Oregon's 2-Year Statute of Limitations</h2>
+<p>Oregon gives you two years from the date of the accident to file a personal injury lawsuit. But don't let this create false comfort — the sooner you begin treatment, the stronger your claim and the better your recovery.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Step-by-step guide for Oregon accident victims. What to do in the first 72 hours after a crash — including why you should see a chiropractor even if you feel completely fine.]]></excerpt:encoded>
+    <wp:post_type>post</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:post_name>what-to-do-after-car-accident-oregon</wp:post_name>
+  </item>
+
+  <!-- ══ BLOG: Is chiro free ══ -->
+  <item>
+    <title>Is Chiropractic Care Really Free After a Car Accident in Oregon?</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <category domain="category" nicename="insurance"><![CDATA[Insurance]]></category>
+    <content:encoded><![CDATA[
+<p>One of the biggest misconceptions about auto accident injuries is that chiropractic treatment is expensive or requires out-of-pocket payment. In Oregon, this simply isn't true for most accident victims.</p>
+
+<h2>Oregon's PIP Law: The Basics</h2>
+<p>Oregon requires every auto insurance policy to include Personal Injury Protection (PIP) coverage. This is mandatory — you have it whether you know it or not.</p>
+<p>PIP coverage pays for medical expenses — including chiropractic care — for you and your passengers after an accident, <strong>regardless of who was at fault</strong>. You don't need to prove the other driver caused the accident to use your PIP benefits.</p>
+
+<h2>How Much PIP Coverage Do I Have?</h2>
+<p>Oregon law requires a minimum of $15,000 in PIP medical coverage per person. Many policies carry $25,000–$100,000. For chiropractic care, $15,000 covers months of treatment for most patients — more than enough for full recovery from typical accident injuries.</p>
+
+<h2>How Much Does Chiropractic Cost After an Accident?</h2>
+<p>With Oregon PIP: <strong>$0 for most patients.</strong> We bill your insurance company directly. You provide your insurance information, we handle all the paperwork and billing. You focus entirely on recovery.</p>
+
+<h2>What if the Accident Was My Fault?</h2>
+<p>PIP covers you regardless of fault. If you rear-ended someone, your own PIP still pays for your chiropractic treatment. This is a critical misunderstanding — many accident victims don't seek treatment because they think their insurance won't cover them if they caused the accident. This is wrong.</p>
+
+<h2>What About Deductibles?</h2>
+<p>Oregon PIP has a maximum deductible of $250. Many policies have a $0 deductible for PIP medical benefits. Even with a $250 deductible, months of chiropractic care may cost you just $250 total.</p>
+
+<h2>File Promptly — PIP Has Time Limits</h2>
+<p>You must notify your insurance company within a reasonable time after the accident to preserve your PIP rights. Under Oregon law, this is generally interpreted as within 14 days. Don't wait.</p>
+
+<p>Call us today — we'll verify your coverage immediately and get you started on the same day. Your treatment is free. Your recovery starts now.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Oregon's PIP law explained. How auto insurance covers chiropractic care after a car accident — and why most Oregon accident victims pay $0 out of pocket.]]></excerpt:encoded>
+    <wp:post_type>post</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:post_name>is-chiropractic-free-after-car-accident</wp:post_name>
+  </item>
+
+  <!-- ══ BLOG: Whiplash timeline ══ -->
+  <item>
+    <title>Whiplash Symptoms: Why Pain Appears Days After Your Accident</title>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <category domain="category" nicename="injury-guide"><![CDATA[Injury Guide]]></category>
+    <content:encoded><![CDATA[
+<p>One of the most dangerous myths about car accident injuries is: "If I feel okay right after the crash, I'm fine." The biology of whiplash makes this assumption not just wrong — but potentially harmful to your long-term health.</p>
+
+<h2>The Adrenaline Effect: Why You Don't Feel Pain Immediately</h2>
+<p>In the moment of a crash, your body releases a surge of adrenaline (epinephrine) and cortisol — your fight-or-flight response. These hormones increase heart rate, suppress pain signals in the nervous system, and heighten alertness. This adrenaline surge can last for hours after an accident — masking significant injury.</p>
+
+<h2>The Whiplash Injury Timeline</h2>
+<p><strong>Immediately After Impact (0–2 hours)</strong> — The cervical spine hyperextends and hyperflexes in milliseconds. Micro-tears form in muscles and ligaments. In this phase, most people feel fine due to adrenaline.</p>
+<p><strong>The Next Morning (12–24 hours)</strong> — Inflammation peaks, muscles spasm, pain signals reach the brain more clearly. Neck stiffness, difficulty turning the head, and headache at the base of the skull appear.</p>
+<p><strong>Peak Symptoms (24–72 hours)</strong> — For many patients, symptoms are most severe during this window. This is the critical period for seeking chiropractic treatment.</p>
+
+<h2>Common Delayed Whiplash Symptoms</h2>
+<ul>
+<li><strong>Neck pain and stiffness</strong> — Difficulty moving head side to side</li>
+<li><strong>Headaches</strong> — Starting at the base of the skull and radiating forward</li>
+<li><strong>Shoulder and upper back pain</strong> — Radiating from the cervical spine</li>
+<li><strong>Arm tingling or numbness</strong> — Nerve irritation from disc or vertebral involvement</li>
+<li><strong>Dizziness and vertigo</strong> — Often related to upper cervical misalignment</li>
+<li><strong>Cognitive fog</strong> — Difficulty concentrating and memory issues</li>
+</ul>
+
+<h2>Why Early Treatment is Critical — and Free</h2>
+<p>Whiplash treated within the first week tends to resolve fully within 6–8 weeks. Whiplash that goes untreated for 3–4 weeks begins developing scar tissue that can take months to address — or may become permanent.</p>
+<p>The good news: <strong>chiropractic treatment for whiplash is free after a car accident in Oregon.</strong> Oregon's PIP law requires your auto insurer to cover the cost. We bill your insurance directly. Call us today — same-day appointments available.</p>
+    ]]></content:encoded>
+    <excerpt:encoded><![CDATA[Why whiplash symptoms are delayed after a car accident. The adrenaline effect, injury timeline, and why the 72-hour window is critical for your health and insurance claim.]]></excerpt:encoded>
+    <wp:post_type>post</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:post_name>whiplash-symptoms-timeline</wp:post_name>
+  </item>
+
+</channel>
+</rss>
